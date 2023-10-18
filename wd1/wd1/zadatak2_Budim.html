@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+        <a href="zad1.html">OBRAZAC</a>
+        </h1>
+    </header>
+    <main>
+        <section>
+            <form>
+                <label for="korisnicko_ime">Korisnicko ime:</label><br>
+                <input type="text" id="korisnicko_ime" name="korisnicko_ime" maxlength="15" placeholder="Unesite korisnicko ime..."><br>
+                <label for="lozinka">Lozinka:</label><br>
+                <input type="password" id="lozinka" name="lozinka" maxlength="15" placeholder="Unesite lozinku..."><br>
+                <label for="popis_ocjena">popis 5 ocjena</label>
+                
+                <select name="popis_ocjena" id="popis_ocjena">
+                    <option> nedovoljan</option>
+                    <option> dovoljan</option>
+                    <option> dobar</option>
+                    <option> vrlo dobar</option>
+                    <option> odlican</option>
+                </select><br>
+
+                <label>Komentar:</label><br>
+                <textarea rows="7" cols="40" placeholder="Unesite teskt.."></textarea><br>
+                <label for="opcijski_gumbi">Opcijski gumbi:</label><br>
+                <input type="radio" id="opcija1" name="opcija1" value="komunikativan">
+                <label for="opcija2">komunikativan</label><br>
+                <input type="radio" id="opcija2" name="opcija1" value="samostalan">
+                <label for="opcija1">samostalan</label><br>
+                <input type="radio" id="opcija3" name="opcija1" value="radisan">
+                <label for="opcija3">radisan</label><br>
+                <input type="radio" id="opcija4" name="opcija1" value="nista od navedenog" checked>
+                <label for="opcija4">nista od navedenog</label><br>
+                <table>
+                    <tr>
+                        <td><button type="submit">Posalji</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="reset">Ponisti</button></td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

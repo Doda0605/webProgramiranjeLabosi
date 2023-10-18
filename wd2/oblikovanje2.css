@@ -1,0 +1,41 @@
+#lista {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+    border: 2px solid #345678;
+}
+
+#lista > li {
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 16px;
+    padding-right: 15px;
+    padding-bottom: 6px;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+#lista > li > a:link {
+    border: 2px solid #345678;
+    color: #345678;
+    background-color: #16cae1;
+    text-decoration: none;
+}
+
+#lista > li > a:hover {
+    border: 2px solid black;
+    color: #345678;
+    background-color: red;
+    text-decoration: none;
+}
+
+#lista > li > a:active {
+    border: 2px solid red;
+    color: red;
+    background-color: green;
+    text-decoration: none;
+}

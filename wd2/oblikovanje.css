@@ -1,0 +1,30 @@
+p {
+    margin-right: 10px;
+    font-style: italic;
+    font-family: Comic Sans MS;
+    color: blue;
+}
+
+#odlomak1 {
+    text-align: center;
+    color: red;
+    font-size: 110%;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#odlomak2 {
+    text-align: justify;
+    font-family: Verdana, sans-serif;
+}
+
+a:link {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+} 
